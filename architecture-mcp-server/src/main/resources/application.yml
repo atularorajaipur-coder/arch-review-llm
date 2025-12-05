@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+postgres:
+  jdbc: jdbc:postgresql://localhost:5432/aara
+  user: postgres
+  pass: password
+
+openai:
+  vision_model: gpt-4o-mini-vision
+  chat_model: gpt-4o

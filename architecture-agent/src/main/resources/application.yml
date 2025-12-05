@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+mcp:
+  base: http://localhost:8080/tool
+
+openai:
+  embedding_model: text-embedding-3-small
